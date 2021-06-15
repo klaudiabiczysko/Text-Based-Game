@@ -1,0 +1,51 @@
+#Rooms
+room Cell 
+short_description: The room is dark and smelly. You think you may even have heard a squeaking sound...
+long_description: The room is dark and smelly. It is quite empty here, but hey, who needs home comforts while being locked up in a cell?
+
+room Hall 
+short_description: The corridor is really long. Not a lot to see here, however you can see two doors.   
+long_description: Not a lot to see here. If I were you, I would not like to realize that these spooky paintings, hanging on the walls, are following your every move. It is just a corridor, however you can see two doors. Wait, have you heard that noise?
+
+room Lab
+short_description: It looks like an alchemist's lab. Maybe you should take something from here? There is some stuff here. There is also another door.
+long_description: The Alchemist's Lab is not empty! You can see a table with empty vials and some kind of an old-looking box. The box is so tempting... Aren't you curious about it?
+
+room Pantry fill
+short_description: The pantry is filled out with jars with all kinds of liquids and sacks full of flour. You can only go back to Kitchen.
+long_description: Suddenly blue liquid catches your eye, it looks suspicious and tempting at the same time. You think that it seems that someone tried to hide it. For sure, it does not belong to the kitchen. Maybe it can be useful? 
+
+room Kitchen 
+short_description: Oh, that smell! It smells like an apple pie. You can also see another door. 
+long_description: Oh, that smell! It's completely different compared to the terrible smell of the cell. It smells like an apple pie. And you can actually see one on the table. Hmmm... maybe you should try it? You also see another door.
+
+room Library win
+short_description: The library is full of bookshelves. Maybe there is a hidden passage behind that mahogany bookshelf? You have seen that in one of the Scooby Doo's episodes.
+long_description: You can notice a book with red cover and silver letters. It looks expensive and precious. Think about it! You can also see that there is a really small door for mice. Maybe that's the plan...
+
+#Doors
+door E-W locked Cell Hall
+door E-W open Hall Lab
+door N-S closed Lab Library
+door N-S closed Hall Kitchen
+door E-W open Kitchen Pantry 
+
+#Items
+item box Lab STATIONARY
+i_description: An old box encrusted with gold and silver. It's too heavy to take it with you, but you can see a blue picture on the lid /// {-_-} --> ---(___C'> ///. It seems like someone's working on the animal transformation potion here! 
+item vial Lab USE fill empty
+i_description: An empty vial that can be filled with magical potions (or wine, though it is not recommended).
+item key Cell USE unlock
+i_description: Someone must have dropped it. It is your lucky day! If only you weren't locked up in a damp dungeon. 
+item bookshelf Library STATIONARY
+i_description: Even if there is a hidden passage behind the bookshelf, it's too heavy to move.
+item book Library MOVE
+i_description: A book written in a foreign language. It lies in the corner of the room so no one will notice if it's gone. Books are expensive and you need something to compensate for that horrible night you've had in the cell. After all, you ended up there without any reason. Right?
+item pie Kitchen STATIONARY 
+i_description: Oh, you wish you could eat it! Unfortunately, it is too hot and you have to content yourself just with that tempting smell.
+
+#Start position
+start Cell
+
+
+

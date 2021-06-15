@@ -1,0 +1,147 @@
+>python Castle.py configuration.txt
+
+Welcome to the Castle!
+
+                                  o
+                       _---|         _ _ _ _ _
+                    o   ---|     o   ]-I-I-I-[
+   _ _ _ _ _ _  _---|      | _---|    \ ` ' /
+   ]-I-I-I-I-[   ---|      |  ---|    |.   |
+    \ `   '_/       |     / \    |    | /^\|
+     [*]  __|       ^    / ^ \   ^    | |*||
+     |__   ,|      / \  /    `\ / \   | ===|
+  ___| ___ ,|__   /    /=_=_=_=\   \  |,  _|
+  I_I__I_I__I_I  (====(_________)___|_|____|____
+  \-\--|-|--/-/  |     I  [ ]__I I_I__|____I_I_|
+   |[]      '|   | []  |`__  . [  \-\--|-|--/-/
+   |.   | |' |___|_____I___|___I___|---------|
+  / \| []   .|_|-|_|-|-|_|-|_|-|_|-| []   [] |
+ <===>  |   .|-=-=-=-=-=-=-=-=-=-=-|   |    / \
+ ] []|`   [] ||.|.|.|.|.|.|.|.|.|.||-      <===>
+ ] []| ` |   |/////////\\\\\.||__.  | |[] [
+ <===>     ' ||||| |   |   | ||||.||  []   <===>
+  \T/  | |-- ||||| | O | O | ||||.|| . |'   \T/
+   |      . _||||| |   |   | ||||.|| |     | |
+../|' v . | .|||||/____|____\|||| /|. . | . ./
+.|//\............/...........\........../../\\
+
+The room is dark and you have no idea how have you ended up here.
+        The last thing you can remember is a weirdly pale guy,
+        who approached you at the bar.
+It seems that you are locked behind the bars. Oh no...You're locked in the Cell!
+        You need to figure out how to escape. You can see something shiny on the floor. What is that?
+What do you do?
+Here are your choices:
+* go N -> to go north
+* go S -> to go south
+* go W -> to go west
+* go E -> to go east
+* help -> to see commands
+* show -> to see the room
+* quit -> quit the game
+* inventory -> check what you have taken
+* take (item name) -> take an item
+* release (item name) -> drop an item
+* unlock (room you want to unlock) -> unlock the door
+* open (room you want to unlock) -> open the door
+* drink (item name) -> drink liquid from a full item
+* fill (item name) -> fill an empty item
+So what is your choice? Maybe try to see the room!
+
+--> show
+
+You are in the Cell.
+The room is dark and smelly. It is quite empty here, but hey, who needs home comforts while being locked up in a cell?
+-> You can go in the following direction:
+* W
+-> You see the following items:
+The key is here.
+
+--> go E
+
+Are you sure you want to run into a wall?
+
+--> go W
+
+The door to the Hall is locked.
+
+--> take key
+
+Ok, you took a key! Someone must have dropped it. It is your lucky day! If only you weren't locked up in a damp dungeon.
+
+--> inventory
+
+Inventory:
+* Key
+
+--> unlock Hall
+
+You have unlocked the door.
+
+--> go W
+
+The corridor is really long. Not a lot to see here, however you can see two doors.
+
+--> take box
+
+Are you blind? There is nothing like this here.
+
+--> release box
+
+How can you drop something you don't have?
+
+--> show
+
+You are in the Hall.
+Not a lot to see here. If I were you, I would not like to realize that these spooky paintings, hanging on the walls, are following your every move. It is just a corridor, however you can see two doors. Wait, have you heard that noise?
+-> You can go in the following direction:
+* E
+* W
+* S
+
+--> go W
+
+It looks like an alchemist's lab. Maybe you should take something from here? There is some stuff here. There is also another door.
+
+--> show
+
+You are in the Lab.
+The Alchemist's Lab is not empty! You can see table with empty vials and some kind of an old-looking box. The box is so tempting... Aren't you curious about it?
+-> You can go in the following direction:
+* E
+* S
+-> You see the following items:
+The box is here.
+The vial is here.
+
+--> take vial
+
+Ok, you took a vial! An empty vial that can be filled with magical potions (or wine, though it is not recommended).
+
+--> fill vial
+
+You don't see anything that could be poured into the vial.
+
+--> drink vial
+
+You sure? You just have once chance! Better try this somewhere else.
+
+--> jump
+
+Invalid command. You can type help to see available commands.
+
+--> open
+
+Which room do you want to open?
+
+--> release vial
+
+Ok, you dropped vial.
+
+--> inventory
+
+It is empty.
+
+--> quit
+
+Ok, your choice. Bye!
